@@ -1,6 +1,6 @@
 module.exports = {
 	cmdPerPage: 10, //- Number of commands per page of help command
-	adminId: "529251307253530625", //- Replace UserId with the Discord ID of the admin of the bot
+	adminId: "", //- Replace UserId with the Discord ID of the admin of the bot
 	token: process.env.token || "", //- Bot's Token
 	clientId: process.env.clientId || "", //- ID of the bot
 	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
