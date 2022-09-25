@@ -13,6 +13,9 @@ const command = new SlashCommand()
 		
 		// Get nodejs version
 		const nodeVersion = process.version;
+        
+         // Get Processor name
+    	const processor = os.cpus()[0].model;
 		
 		// get the uptime in a human readable format
 		const runtime = moment
@@ -78,7 +81,7 @@ const command = new SlashCommand()
 				},
 				{
 					name: "System stats",
-					value: `\`\`\`yml\nOS: ${ osver }\nUptime: ${ sysuptime }\n\`\`\``,
+					value: `\`\`\`yml\nOS: ${ osver }\nUptime: ${ sysuptime }\nProcessor: ${processor}\n\`\`\``,
 					inline: false,
 				},
 			])
