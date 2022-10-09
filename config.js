@@ -22,7 +22,7 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
       {
-			identifier: "Fallback", //- Used for indentifier in stats commands.
+			identifier: "Main", //- Used for indentifier in stats commands.
 			host: "140.238.248.156",
 			port: 3000,
 			password: "kdlavalink",
