@@ -20,14 +20,3 @@ const client = new DiscordMusicBot();
 
 console.log("Make sure to fill in the config.js before starting the bot.");
 
-module.exports = client;
-const express = require("express");
-const app = express()
- 
-app.get('/', (req, res) => {
-  res.send("Use this link for uptime")
-})
- 
-app.listen(3000, () => {
-  console.log("Your Project is Working!! hehe")
-})
