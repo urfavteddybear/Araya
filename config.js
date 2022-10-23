@@ -1,9 +1,9 @@
 module.exports = {
 	cmdPerPage: 10, //- Number of commands per page of help command
 	adminId: "", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "OTg0ODQwODAwNDUyMDgzNzMy.G5QjWF.od1GEiQIjsjhU4ZUQyCkdIrCV_etM3NMa6-SWE", //- Bot's Token
-	clientId: process.env.clientId || "984840800452083732", //- ID of the bot
-	clientSecret: process.env.clientSecret || "gZ907ujni9ykWMF3TQ5liJKyfJeiCLxW", //- Client Secret of the bot
+	token: process.env.token || "", //- Bot's Token
+	clientId: process.env.clientId || "", //- ID of the bot
+	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
 	port: 4240, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	serverDeafen: true, //- If you want bot to stay deafened
